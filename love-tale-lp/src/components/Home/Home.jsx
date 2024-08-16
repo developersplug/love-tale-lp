@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <h className='mx-auto text-center text-3xl text-white font-bold'>Lorem ipsum dolor sit amet consectetur.</h>
       <p className='mx-auto text-center text-xl text-white '>Lorem ipsum dolor sit amet.</p>
-      <button className='bg-[#f47377] px-5 py-3 rounded-full my-3'>Get Started</button>
+      <button className='bg-[#f47377] px-5 py-3 rounded-full my-3 text-white'>Get Started</button>
     </div>
     {/**Bottom div */}
     <div className='bg-[#f47377] flex items-center justify-between p-3 absolute bottom-0 z-10 w-full'>
