@@ -12,6 +12,7 @@ import Groups from './components/Groups/Groups'
 import Availability from './components/Availability/Availability';
 import Bottomsec from './components/Bottom/Bottomsec';
 import Footer from './components/Footer/Footer';
+import Register from './components/Register/Register';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/downloads' element={<Downloads />} />
         </Routes>
       </Router>
+      <Register/>
         <DatingAdvice />
         <Groups />
         <Availability />

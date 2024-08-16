@@ -4,7 +4,7 @@ import { FaGooglePlay } from "react-icons/fa";
 import Artboard6 from '../../assets/Artboard6.svg'
 const Availability = () => {
   return (
-    <div className='w-[90%] bg-gray-200 mt-20 mx-auto'>
+    <div className='w-[90%] bg-gray-100 mt-20 mx-auto'>
       <div className='flex  '>
         {/**Left div */}
         <div className='flex-1 flex flex-col p-4 items-center justify-center'>
