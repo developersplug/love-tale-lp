@@ -23,9 +23,9 @@ const DatingAdvice = () => {
                     }}
                     >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quod sequi excepturi quasi magnam quis quaerat voluptas. </p>
                     <div className='flex flex-col gap-3 my-2 '>
-                        <button className='w-[80%] p-1 rounded-xl bg-pink-400 text-white mx-auto text-center'>Men</button>
-                        <button className='w-[80%]  p-1 rounded-xl bg-pink-400 text-white mx-auto text-center'>Women</button>
-                        <button className='w-[80%]  p-1 rounded-xl bg-pink-400 text-white mx-auto text-center'>Other</button>
+                        <button className='w-[80%] p-1 rounded-xl bg-[#f47377] font-bold text-white mx-auto text-center'>Men</button>
+                        <button className='w-[80%]  p-1 rounded-xl bg-[#f47377] font-bold text-white mx-auto text-center'>Women</button>
+                        <button className='w-[80%]  p-1 rounded-xl bg-[#f47377] font-bold text-white mx-auto text-center'>Other</button>
                     </div>
                 </div>
             </div>

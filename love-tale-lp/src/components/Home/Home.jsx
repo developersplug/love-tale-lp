@@ -3,9 +3,7 @@ import React from 'react'
 import './Home.css'
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import CircleFrame from '../../assets/CircleFrame.svg'
-// import Artboard8 from '../../assets/Artboard8.svg';
-// import Artboard5 from '../../assets/Artboard5.svg';
-// import Artboard7 from '../../assets/Artboard7.svg'
+
 
 
 
@@ -22,10 +20,10 @@ const Home = () => {
       </div>
       <h className='mx-auto text-center text-3xl text-white font-bold'>Lorem ipsum dolor sit amet consectetur.</h>
       <p className='mx-auto text-center text-xl text-white '>Lorem ipsum dolor sit amet.</p>
-      <button className='bg-red-400 px-5 py-3 rounded-full my-3'>Get Started</button>
+      <button className='bg-[#f47377] px-5 py-3 rounded-full my-3'>Get Started</button>
     </div>
     {/**Bottom div */}
-    <div className='bg-red-200 flex items-center justify-between p-3 absolute bottom-0 z-10 w-full'>
+    <div className='bg-[#f47377] flex items-center justify-between p-3 absolute bottom-0 z-10 w-full'>
       <div className='absolute'>
         <img src={CircleFrame} alt="" className='w-[200px] h-[200px] rounded-full ' />
       </div>
@@ -33,7 +31,7 @@ const Home = () => {
         <h className=' text-[23px]  text-white font-bold'>Start Your Love Story</h>
         <p className=' text-[18px] text-white '>Love Tale:Find Love with our dating site</p>
       </div>
-      <button className='bg-gray-50 px-5 py-3 rounded-full my-3 text-red-400'>Register Now</button>
+      <button className='bg-gray-50 px-5 py-3 rounded-full my-3 text-[#f47377]'>Register Now</button>
     </div>
   </>
   )

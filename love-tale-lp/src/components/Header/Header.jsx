@@ -41,7 +41,7 @@ const Header = () => {
             </div>
             <div className='flex gap-4 m-2'>
                 <button className='text-black'>English</button>
-                <button className='bg-red-400 px-3 py-2 rounded-full'>Login</button>
+                <button className='bg-[#f47377] px-3 py-2 rounded-full'>Login</button>
             </div>
 
         </div>
