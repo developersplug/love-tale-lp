@@ -12,7 +12,7 @@ const Home = () => {
 
 
     <div className="hero flex  flex-col items-center justify-center relative">
-      <div className='text-black text-2xl flex items-center mx-auto text-center gap-8'>
+      <div className='text-white text-2xl flex items-center mx-auto text-center gap-8'>
         <FaFacebook />
         <FaTwitter />
         <FaYoutube />
