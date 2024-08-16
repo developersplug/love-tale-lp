@@ -1,0 +1,9 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    /* background: url('../../assets/herosec.jpg'); */
+    background:linear-gradient(rgba(8,0,58,0.3),rgba(8,0,58,0.3)),url('../../assets/herosec.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
