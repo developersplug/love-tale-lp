@@ -13,8 +13,8 @@ const DatingAdvice = () => {
                 </div>
                 {/**RIGHT DIV */}
                 <div className='flex-1 p-2 mx-auto text-center'>
-                    <h2 className='text-[25px] font-bold text-white'>Explore Dating <span className='underline underline-offset-2 decoration-pink-500'>Advice</span></h2>
-                    <p className='text-white'>Be calm.Be kind.Be Yourself</p>
+                    <h2 className='text-[25px] font-bold text-black'>Explore Dating <span className='underline underline-offset-2 decoration-pink-500'>Advice</span></h2>
+                    <p className='text-black'>Be calm.Be kind.Be Yourself</p>
                     <p className='bg-gray-50 text-gray-500 text-[12px] w-64 mx-auto text-center mt-8 mb-2 ' style={{
                         borderTopLeftRadius: '8px',
                         borderTopRightRadius: '8px',
