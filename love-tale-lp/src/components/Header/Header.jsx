@@ -40,7 +40,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className='flex gap-4 m-2'>
-                <button className='text-black'>English</button>
+                <button className='text-white'>English</button>
                 <button className='bg-[#f47377] px-3 py-2 rounded-full'>Login</button>
             </div>
 
