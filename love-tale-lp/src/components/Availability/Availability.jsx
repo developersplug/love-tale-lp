@@ -11,15 +11,15 @@ const Availability = () => {
           <h2 className='font-medium md:text-[40px] text-[30px] tracking-tight md:tracking-normal mx-auto text-center'>Our <span className='underline underline-offset-2 decoration-pink-500'>30 Million</span> Downloads</h2>
           <p className='md:mx-[5%]  text-center md:text-[15px] text-[12px] my-3'>Download Lovetale online dating aap and you're always ready to check out profiles near you & chat with real commited singles ready for a real relationship.It puts at the power of eAmo in the palm of your hand for a faster dating experience.</p>
           <div className='flex gap-3 my-4'>
-            <div className='flex items-center justify-center gap-1 bg-black rounded-md p-1 '>
+            <div className='flex items-center justify-center gap-1  bg-black rounded-md md:p-1 px-1 '>
               <FaApple className='md:text-2xl text-xl text-white' />
-              <p className='md:text-[15px] text-[13px] leading-[1.2] text-white'>
-                Download on<br /> <span className='md:text-[18px] text-[14px] font-medium'>APP Store</span>
+              <p className='md:text-[15px] text-[13px] leading-[1.2] text-white whitespace-nowrap'>
+                Download on<br /> <span className='md:text-[18px] text-[14px] font-medium whitespace-nowrap'>APP Store</span>
               </p>
             </div>
-            <div className='flex items-center justify-center gap-1 bg-black rounded-md p-1'>
-              <FaGooglePlay className='md:text-2xl text-xl text-white' />
-              <p className='md:text-[15px] text-[13px] leading-[1.2] text-white'>Download on <br /> <span className='md:text-[18px] text-[14px] font-medium '> Google Play </span></p>
+            <div className='flex items-center justify-center gap-1 bg-black rounded-md md:p-1 px-1'>
+              <FaGooglePlay className='md:text-2xl text-xl text-white whitespace-nowrap' />
+              <p className='md:text-[15px] text-[13px] leading-[1.2] text-white'>Download on <br /> <span className='md:text-[18px] text-[14px] font-medium whitespace-nowrap'> Google Play </span></p>
             </div>
           </div>
         </div>
