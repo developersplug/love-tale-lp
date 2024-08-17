@@ -61,7 +61,7 @@ const Header = () => {
             </div>
             <div className='flex gap-4 m-2'>
                 <button className='text-white'>English</button>
-                <button className='bg-gradient-to-tl from-[#faadcf] to-[#F94892] px-3 py-2 rounded-full'
+                <button className='bg-gradient-to-r from-[#543C6D] to-[#c98593] px-4 py-2 rounded-full'
                  onClick={() => window.location.href = 'https://abcdefg-c2895.web.app/'} 
                 >Login</button>
             </div>

@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <h className='md:mx-[20%] mx-[10%] text-center md:text-[50px] text-[35px] leading-none text-white font-medium'>Dating for Growns Ups <br/> Make a Real Connection </h>
       <p className='md:mx-auto  mx-[10%] text-center md:text-xl text-[20px] text-white font-medium my-6 '>Start meeting singles who are ready to commit today.</p>
-      <button className='bg-gradient-to-r from-[#FFA1C9] to-[#F94892] md:px-5 px-3 text-[18px] md:py-3 py-2 rounded-full md:my-3 my-2 font-medium text-white'
+      <button className='bg-gradient-to-r from-[#543C6D] to-[#c98593] md:px-5 px-3 text-[18px] md:py-3 py-2 rounded-full md:my-3 my-2 font-medium text-white'
       onClick={() => window.location.href = 'https://abcdefg-c2895.web.app/'} >Get Started</button>
     </div>
    

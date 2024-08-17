@@ -13,7 +13,7 @@ const Register = () => {
           <h className=' md:text-[23px] text-[14px]  text-white md:font-bold font-medium'>Start Your Love Story</h>
           <p className=' md:text-[18px] text-[12px] text-white '>Love Tale:Find Love with our dating site</p>
         </div>
-        <button className='bg-gray-50 md:px-5 px-3 md:text-[18px] text-[12px] whitespace-nowrap md:py-3 py-2 rounded-full my-3 text-[#f47377]'
+        <button className='bg-gray-50 md:px-5 px-3 md:text-[18px] text-[12px] whitespace-nowrap md:py-3 py-2 rounded-full my-3 text-[#f9a3b2]'
          onClick={() => window.location.href = 'https://abcdefg-c2895.web.app/'}
         >Register Now</button>
       </div>
