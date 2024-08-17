@@ -35,7 +35,7 @@ const Header = () => {
                 {/* <h2 className='text-[25px] text-red-400 font-bold'></h2> */}
                 <ul className={`
                         fixed top-16 left-0 h-[200px] w-64 
-                      bg-[#f47377] text-white 
+                        ${isMenuOpen ? 'bg-gradient-to-tl from-[#FFA1C9] to-[#F94892]' : ''}  text-white 
                         transform ${isMenuOpen ? 'translate-x-0' : 'hidden translate-x-full'} 
                         transition-transform duration-300 ease-in-out 
                         flex flex-col items-center justify-center gap-4 
@@ -61,7 +61,9 @@ const Header = () => {
             </div>
             <div className='flex gap-4 m-2'>
                 <button className='text-white'>English</button>
-                <button className={`bg-gradient-to-tl from-[#faadcf] to-[#F94892] px-3 py-2 rounded-full`}>Login</button>
+                <button className='bg-gradient-to-tl from-[#faadcf] to-[#F94892] px-3 py-2 rounded-full'
+                 onClick={() => window.location.href = 'https://abcdefg-c2895.web.app/'} 
+                >Login</button>
             </div>
 
         </div>
