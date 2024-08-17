@@ -1,4 +1,42 @@
 .dark{
-    background: #f47377;
+    background: linear-gradient(to right,#FFA1C9 , #F94892,#FFA1C9);   
     transition: 0.52s;
 }
+
+/* .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    width: 50px;
+    z-index: 20;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: pink;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    ul li{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+
+
+    
+} */

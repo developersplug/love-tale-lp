@@ -7,18 +7,18 @@ const Home = () => {
   return (<>
 
 
-    <div className="hero flex  flex-col items-center justify-center ">
-      <div className='text-white text-xl flex items-center mx-auto text-center gap-8 my-6'>
+    <div className="hero flex  flex-col items-center justify-center w-[100%] ">
+      <div className='text-white text-xl flex items-center mx-auto text-center md:gap-8 gap-6 md:my-6 my-3 '>
         <FaFacebook />
         <FaTwitter />
         <FaYoutube />
         <FaInstagram />
       </div>
-      <h className='mx-[30%] text-center text-[50px] text-white font-medium'>Lorem ipsum dolor sit amet consectetur.</h>
-      <p className='mx-auto text-center text-xl text-white font-medium  '>Lorem ipsum dolor sit ipsum dolor sit ipsum dolor sit ipsum dolor sit</p>
-      <button className='bg-[#f47377] px-5 py-3 rounded-full my-3 font-medium text-white'>Get Started</button>
+      <h className='md:mx-[20%] mx-[10%] text-center md:text-[50px] text-[35px] leading-none text-white font-medium'>Dating for Growns Ups <br/> Make a Real Connection </h>
+      <p className='md:mx-auto  mx-[10%] text-center md:text-xl text-[20px] text-white font-medium my-6 '>Start meeting singles who are ready to commit today.</p>
+      <button className='bg-gradient-to-r from-[#FFA1C9] to-[#F94892] md:px-5 px-3 text-[18px] md:py-3 py-2 rounded-full md:my-3 my-2 font-medium text-white'>Get Started</button>
     </div>
-    {/**Bottom div */}
+   
    
   </>
   )
