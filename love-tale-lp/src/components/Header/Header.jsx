@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
-import logo from '../../assets/logo.svg';
+// import logo from '../../assets/logo.svg';
+import LOGO02 from '../../assets/LOGO02.svg';
 import { IoMenu } from "react-icons/io5";
 
 
@@ -31,7 +32,7 @@ const Header = () => {
         <div className={`w-[100%]  text-[#fff] fixed top-0 py-[4px] justify-between left-0  flex items-center z-20 ${sticky ? 'dark' : ''} `}>
             <div className='flex gap-4 m-3 items-center'>
 
-                <img src={logo} alt="logo" className='w-[50px] h-[50px]' />
+                <img src={LOGO02} alt="logo" className='w-[50px] h-[50px]' />
                 {/* <h2 className='text-[25px] text-red-400 font-bold'></h2> */}
                 <ul className={`
                         fixed top-16 left-0 h-[200px] w-64 
